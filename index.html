@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="el">
+<head>
+    <meta charset="UTF-8">
+    <title>Πρώτος Κώδικας JavaScript</title>
+</head>
+<body>
+    <h1>Καλώς ήρθες στον κόσμο της JavaScript!</h1>
+
+    <button id="myButton">Πάτησέ με!</button>
+
+    <script>
+        // Βρίσκουμε το κουμπί με το id "myButton"
+        const button = document.getElementById("myButton");
+
+        // Προσθέτουμε μια εντολή όταν το κουμπί πατηθεί
+        button.addEventListener("click", function() {
+            alert("Μπράβο! Αυτό είναι το πρώτο σου μήνυμα JavaScript!");
+        });
+    </script>
+</body>
+</html>
